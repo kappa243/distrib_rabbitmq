@@ -6,9 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication(scanBasePackages = "pl.edu.agh.idec.cosmic")
 public class ConsumerApplication {
     
-    public static final String QUEUE_NAME = "tasks";
-    
     public static void main(String[] args) {
-         SpringApplication.run(ConsumerApplication.class, args);
+        SpringApplication.run(ConsumerApplication.class, args);
     }
 }
